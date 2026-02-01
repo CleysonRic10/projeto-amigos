@@ -1,0 +1,79 @@
+11-01 
+        https://cleysonric10.github.io/Site-estatico/#
+
+13-01
+        Lista vs-CODE DESENVOLVEDOR (tecla ALT = option, tecla CTRL = command)
+
+        Copiar          : shift + ALT + seta
+        Colar           : ALT + seta
+        Apagar         	: CTRL + shift + K
+        Buscar         	: CTRL + D 
+        Multi-cursor 	: ALT + click
+        Zen-mode        : -
+        InteLLisense	: CTRL + espaço (auto-preenchimento)
+        Navegar aba ant : Control + Tab
+        Atalhos	: CTRL + K seguido CTRL + S
+
+31-01
+//  ------------------------- Objeto.Metodo() ------------------------- .
+// console.log("Ola mundo!");
+// console.log(document.querySelector(".botaoPrincipal"));
+//const botaoLegal = document.querySelector(".botaoPrincipal")
+//console.log(botaoLegal);
+// botaoLegal.onclick = () => {
+//     alert("O usuario clicou!!")
+// }
+
+//  SECAO HERO -------------- --------------- ------------------------- .
+        img bg-1 Monstro Vermelho
+        img bg-2 Personagens
+        Efeito paralax
+        Falha: atravessando por baixo de .secaoCidade
+        Solucao: 
+        .bgMonstro 
+                position: relative;
+                z-index: 2;
+                background-color:#0c0102; 
+//  SECAO secaoCidade ------- --------------- ------------------------- .
+        Usou gsap
+//  SECAO secaoObrigado ----- --------------- ------------------------- .
+        Usou gsap
+//  SECAO Footer ------------ --------------- ------------------------- .
+        1-Falha: atravessando por cima de .secaoCidade
+        Solucao: 
+        .secaoObrigado 
+                position: relative;
+                z-index: 2;
+        2-Falha
+        Solucao: 
+        .Renderizacao
+                immediateRender: false!!
+        3-Falha: Usuario F5 no Footer
+        Solucao:
+                ??
+
+
+//  PRELOAD ----------------- --------------- ------------------------- .
+        
+        Diferente de imagem, ex. *.sgv, *.jpg, etc..
+
+        É um Arquivo Vetorial (desenho): Exportar e colocar no site.
+        
+        Ex. 
+                Selecione o vetor (ícone, forma, frame) no Figma.
+                Quando preLoader sai com display: none, as animacões ja estao no final.
+
+
+
+//  Performance ------------- --------------- ------------------------- .
+
+        Page speed (preLoader)
+        hospedagem:
+                hostinger
+        dominio:
+                https://gustavocampelo.com.br
+        Servidor:
+                VPS, mais acesso
+                hospedagem site compartilhado
+        
+
